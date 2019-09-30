@@ -22,6 +22,10 @@ public class CommunityBoard {
        status =newStatus;  
    }
 
+//   public String updateMessage (String Message)
+//   {
+//       
+//   }
     /**
      * @return the author
      */

@@ -84,8 +84,23 @@ public class HelpfulInfoTest {
     public void testSetMessage() {
         System.out.println("setMessage");
         String Message = "There is a 80% chance of getting a fire in thea area";
-        HelpfulInfo instance = new HelpfulInfo ("Ethan", "There is a 80% chance of getting a fire in thea area");;;
+        HelpfulInfo instance = new HelpfulInfo ("Ethan", "There is a 80% chance of getting a fire in thea area");
         instance.setMessage(Message);
+        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of sendHelpfulInfo method, of class HelpfulInfo.
+     */
+    @Test
+    public void testSendHelpfulInfo() {
+        System.out.println("sendHelpfulInfo");
+        String probability = "";
+        HelpfulInfo instance = new HelpfulInfo ("Ethan", "There is a 80% chance of getting a fire in thea area");
+        String expResult = "There is a 80% chance of getting a fire in thea area";
+        String result = instance.sendHelpfulInfo(probability);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");
     }

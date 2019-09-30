@@ -21,24 +21,37 @@ public class HelpfulInfo {
     public String sendHelpfulInfo (String probability)
     {
         String info = "";
+       String mildMessage = "There is a 30% chance of getting a fire in the area";
+       String intermediateMessage = "There is a 50% chance of getting a fire in the area";
+       String seriousMessage = "There is a 80% chance of getting a fire in thea area";
        
         
      if(probability == "MildProbility")
     {
-       info = "There is a 30% chance of getting a fire in the area";
+       info = mildMessage;
     }
      else if (probability == "IntermediateProbability ")
      {
-         info = "There is a 50% chance of getting a fire in the area";
-        
+         info = intermediateMessage;
      }
     else
      {
-         info = "There is a 80% chance of getting a fire in thea area";
+         info = seriousMessage;
      }
-     
+    
     return info;
  }
+    
+//    public int rankHelpfulInfo (int percentage)
+//    {
+//       int rank = 0;
+//       
+//       if (percentage > 0  30)
+//       {
+//           
+//       }
+//           
+//    }
 
     /**
      * @return the User
