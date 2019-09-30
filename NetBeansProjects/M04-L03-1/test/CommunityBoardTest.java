@@ -143,5 +143,29 @@ public class CommunityBoardTest {
         // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of totalposts method, of class CommunityBoard.
+     */
+    @Test
+    public void testTotalposts() {
+        System.out.println("totalposts");
+        CommunityBoard instance = new CommunityBoard ("Ethan", "I need help in The Park area", 10.25, "In Progress");
+        instance.totalposts();
+        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of Comments method, of class CommunityBoard.
+     */
+    @Test
+    public void testComments() {
+        System.out.println("Comments");
+        CommunityBoard instance = new CommunityBoard ("Ethan", "I need help in The Park area", 10.25, "In Progress");
+        instance.Comments();
+        // TODO review the generated test code and remove the default call to fail.
+//        fail("The test case is a prototype.");
+    }
     
 }

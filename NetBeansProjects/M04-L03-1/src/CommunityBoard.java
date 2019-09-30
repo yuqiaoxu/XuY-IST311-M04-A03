@@ -1,3 +1,6 @@
+
+import java.util.ArrayList;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -22,10 +25,17 @@ public class CommunityBoard {
        status =newStatus;  
    }
 
-//   public String updateMessage (String Message)
-//   {
-//       
-//   }
+   public int totalposts ()
+   {
+       ArrayList < String> posts = new ArrayList<String>();
+       int totposts = posts.size();
+       return totposts;
+   }
+   
+   public void Comments()
+   {
+       
+   }
     /**
      * @return the author
      */
